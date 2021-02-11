@@ -12,3 +12,21 @@ Test_3:
 Test_4:
 	- Create a file "file3.csv" in /
 	- File is not compressed.
+
+Test_A:
+	- Create a file "fileA.csv" in /root.
+	- File is compressed.
+
+Test_B:
+	- Create a file "fileB.csv" in /root.
+	- File is compressed.
+
+Test_C:
+	- Modify files "fileA.csv" and "fileB.csv".
+
+Test_D:
+	- Create a file "file4.txt" in /root/updater.
+	- File is not compressed.
+	- Create a file "fileC.txt" in /root/updater.
+	- File is compressed.
+
