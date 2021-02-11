@@ -1,42 +1,43 @@
 Test_1:
 	- Create a file "file1.txt" in /root.
 	- File is not compressed.
-	- To confirm that a file can be created.
-	- To confirm that a file not compressed can be used.
+	- Confirm that a file can be created.
+	- Confirm that a file not compressed can be used.
 
 Test_2:
 	- Create a file "file2.txt" in /root.
 	- File is not compressed.
-	- To confirm that a second file can be created.
+	- Confirm that a second file can be created.
 
 Test_3:
 	- Modify files "file1.txt" and "file2.txt".
-	- To confirm that a file can be edited.
+	- Confirm that a file can be edited.
 
 Test_4:
 	- Create a file "file3.csv" in /
 	- File is not compressed.
-	- To confirm that a file can be created in a different folder.
-	- To confirm that a different extension can be created.
+	- Confirm that a file can be created in a different folder.
+	- Confirm that a different extension can be created.
 
 Test_A:
 	- Create a file "fileA.csv" in /root/testA.
 	- File is compressed.
-	- To confirm that a file compressed can be used.
-	- To confirm that a file can be created in a new folder.
+	- Confirm that a file compressed can be used.
+	- Confirm that a file can be created in a new folder.
 
 Test_B:
-	- Create a file "fileB.csv" in /root/testB.
+	- Create a file "fileB.csv" in /root.
 	- File is compressed.
-	- To confirm that a second file can be created in a folder previously created.
+	- Confirm that a second file can be created in a folder previously created.
 
 Test_C:
 	- Modify files "fileA.csv" and "fileB.csv".
-	- To confirm that a file compressed can be edited.
+	- Confirm that a file compressed can be edited.
 
 Test_D:
 	- Create a file "file4.txt" in /root/updater.
 	- File is not compressed.
 	- Create a file "fileC.txt" in /root/updater.
 	- File is compressed.
-	- To confirm that both compressed and not compressed can be created at the same time.
+	- Confirm that both compressed and not compressed can be created at the same time.
+	
