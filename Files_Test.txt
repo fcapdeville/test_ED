@@ -1,0 +1,14 @@
+Test_1:
+	- Create a file "file1.txt" in /root.
+	- File is not compressed.
+
+Test_2:
+	- Create a file "file2.txt" in /root.
+	- File is not compressed.
+
+Test_3:
+	- Modify files "file1.txt" and "file2.txt".
+
+Test_4:
+	- Create a file "file3.csv" in /
+	- File is not compressed.
