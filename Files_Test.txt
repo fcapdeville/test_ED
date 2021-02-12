@@ -30,7 +30,7 @@ Test_6:
 	- File is not compressed.
 	- Size file is over partition size.
 	- Confirm that the file cannot be downloaded and updated.
-	- Every partial file shall be eliminated.
+	- Every partial file shall be eliminated.    ===>>>>> To determine 
 
 Test_A:
 	- Create a file "fileA.csv" in /root/testA.
