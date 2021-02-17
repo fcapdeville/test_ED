@@ -20,13 +20,13 @@ Test_4:
 	- Confirm that a different extension can be created.
 
 Test_5:
-        - Create a file "file5.csv" in /root/test5.
+        - Create a file "fileA.csv" in /root/test5.
         - File is compressed.
         - Confirm that a file compressed can be used.
         - Confirm that a file can be created in a new folder.
 
 Test_6:
-        - Create a file "file6.csv" in /root.
+        - Create a file "fileB.csv" in /root.
         - File is compressed.
         - Confirm that a second file can be created in a folder previously created.
 
@@ -45,20 +45,17 @@ Test_8:
 	- Every partial file shall be eliminated.
 	- Every process of files successfully updated are finished.
 
+Test_9:
+	- Download a file9 with a wrong manifest file.
+	- Confirm that the process shall not run successfully.
+
 Test_C:
 	- Modify files "fileA.csv" and "fileB.csv".
 	- Confirm that a file compressed can be edited.
-
-Test_D:
-	- Create a file "file4.txt" in /root/updater.
-	- File is not compressed.
-	- Create a file "fileC.txt" in /root/updater.
-	- File is compressed.
-	- Confirm that both compressed and not compressed can be created at the same time.
-
+	
 Test_E:
 	- Update Test_6 and disconnect from network during process.
 	- Confirm that files are eliminated.
-	- Confirm that fota.log indicates the situation.
+	- Confirm that fota.log indicates the situation. ==> Determine
 	- Confirm that user realizes the situation.
 
