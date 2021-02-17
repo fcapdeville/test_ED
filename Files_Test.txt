@@ -14,7 +14,7 @@ Test_3:
 	- Confirm that a file can be edited.
 
 Test_4:
-	- Create a file "file3.csv" in /
+	- Create a file "file4.csv" in /
 	- File is not compressed.
 	- Confirm that a file can be created in a different folder.
 	- Confirm that a different extension can be created.
