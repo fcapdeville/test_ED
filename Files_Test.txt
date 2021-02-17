@@ -49,6 +49,10 @@ Test_9:
 	- Download a file9 with a wrong manifest file.
 	- Confirm that the process shall not run successfully.
 
+Test_10:
+	- Download an update but the mirgsign is missing.
+	- Confirm that the process shall not run successfully.
+		
 Test_C:
 	- Modify files "fileA.csv" and "fileB.csv".
 	- Confirm that a file compressed can be edited.
