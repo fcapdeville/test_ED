@@ -20,7 +20,7 @@ Test_4:
 	- Confirm that a different extension can be created.
 
 Test_5:
-        - Create a file "file5.xlsx" in /root/test5
+        - Create a file "file4.xlsx" in /root/test5
         - File is compressed.
         - Confirm that a file compressed between 50% and 100% of capacity of the Edge Device partition is eliminated when is extracted due to overlimit partition capacities.
 	- Every partial file shall be eliminated.    ===>>>>> To determine 
