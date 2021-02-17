@@ -53,4 +53,10 @@ Test_D:
 	- Create a file "fileC.txt" in /root/updater.
 	- File is compressed.
 	- Confirm that both compressed and not compressed can be created at the same time.
-	
+
+Test_E:
+	- Update Test_6 and disconnect from network during process.
+	- Confirm that files are eliminated.
+	- Confirm that fota.log indicates the situation.
+	- Confirm that user realizes the situation.
+
