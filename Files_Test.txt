@@ -1,3 +1,7 @@
+git donde estan todos los archivos:
+https://github.com/fcapdeville/test_ED
+
+
 Test_1:
 	- Create a file "file1.txt" in /root.
 	- File is not compressed.
