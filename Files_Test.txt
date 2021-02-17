@@ -46,7 +46,7 @@ Test_8:
 	- Every process of files successfully updated are finished.
 
 Test_9:
-	- Download a file9 with a wrong manifest file.
+	- Update but the updatebundle folder is empty.
 	- Confirm that the process shall not run successfully.
 
 Test_10:
