@@ -25,6 +25,11 @@ Test_5:
         - Confirm that a file compressed can be used.
         - Confirm that a file can be created in a new folder.
 
+Test_6:
+        - Create a file "file6.csv" in /root.
+        - File is compressed.
+        - Confirm that a second file can be created in a folder previously created.
+
 Test_7:
         - Create a file "file7.xlsx" in /root/test7
         - File is compressed.
@@ -39,11 +44,6 @@ Test_8:
 	- Confirm that the file cannot be downloaded and updated.
 	- Every partial file shall be eliminated.
 	- Every process of files successfully updated are finished.
-
-Test_B:
-	- Create a file "fileB.csv" in /root.
-	- File is compressed.
-	- Confirm that a second file can be created in a folder previously created.
 
 Test_C:
 	- Modify files "fileA.csv" and "fileB.csv".
